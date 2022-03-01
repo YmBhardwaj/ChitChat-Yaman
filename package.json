@@ -1,0 +1,20 @@
+{
+  "name": "yaman",
+  "version": "1.0.0",
+  "description": "remote connection with your team",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "dev": "concurrently \"nodemon backend/server.js\" \"npm start --prefix frontend/yaman\""
+  },
+  "author": "Yaman Bhardwaj",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^6.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "socket.io": "^2.3.0"
+  }
+}

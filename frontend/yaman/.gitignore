@@ -1,0 +1,14 @@
+# dependencies
+/node_modules
+
+#firebase config
+secrets.js
+
+# caches
+.eslintcache
+
+# build
+/build
+
+#firebase
+.firebase

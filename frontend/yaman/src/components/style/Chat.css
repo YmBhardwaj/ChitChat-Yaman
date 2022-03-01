@@ -1,0 +1,103 @@
+.width0 {
+  width: 0px !important;
+}
+
+.ChatContainer {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: auto;
+  background-color: #010606;
+  transition: all 0.5s ease;
+  overflow: hidden;
+  text-align: center;
+}
+
+.text-heading {
+  height: 5%;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  justify-content: center;
+  color: #fff;
+}
+
+.text-area {
+  height: 88vh !important;
+  max-height: 87vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.text-list {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 15px;
+  color: #fff;
+}
+
+.senders-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 16px;
+  text-align: left;
+  color: #fff;
+}
+
+.senders-text > strong {
+  text-transform: capitalize;
+  margin-left: 3px;
+}
+
+.senders-text > p {
+  max-width: 65%;
+  overflow-x: auto;
+  width: auto;
+  padding: 9px;
+  font-size: 14px;
+  background: #fff;
+  color: #010606;
+  border-radius: 1.125rem 1.125rem 1.125rem 0;
+  font-weight: 550;
+}
+
+.users-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+  font-size: 16px;
+  text-align: right;
+}
+
+.users-text > strong {
+  text-transform: capitalize;
+  margin-right: 5px;
+}
+
+.users-text > p {
+  overflow-x: auto;
+  max-width: 65%;
+  width: auto;
+  padding: 9px;
+  font-size: 14px;
+  text-align: left;
+  border-radius: 1.125rem 1.125rem 0 1.125rem;
+  background: #01bf71;
+  color: #010606;
+  font-weight: 550;
+}
+
+.bottom-input {
+  bottom: 0;
+  width: 100%;
+  height: 8%;
+  padding: 12px 14px;
+  border: none;
+  background: rgb(23 23 23 / 90%);
+  color: #fff;
+}
